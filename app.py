@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pytesseract
 from PIL import Image  
-
+ 
 st.title("OPTICAL CHARACTER RECOGNITION")
 st.text("Upload the image :")
 
