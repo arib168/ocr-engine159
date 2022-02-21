@@ -6,7 +6,7 @@ from PIL import Image
 st.title("OPTICAL CHARACTER RECOGNITION")
 st.text("Upload the image :")
 
-pytesseract-pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 uploaded_file = st.sidebar.file_uploader("Choose an image :", type = ["jpg","jpeg","png"])   # create a file uploader in the sidebar 
 if uploaded_file is not None: #if there is some file uploaded, then run the following conditions 
